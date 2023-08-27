@@ -127,32 +127,58 @@
 #else:
 #    print("verdadeiro")        
 
-empresas_de_carros = "volkswagen, chevrolet, hyundai"
-modelo_dos_carros = "Nivus, Camaro, hb20"
-cores_dos_carros = "Amarelo , Vermelho, Azul"
-ano_dos_carros = "2016, 2018, 2020"
-print(f"As Empresas {empresas_de_carros}") 
-print(f"nos modelos {modelo_dos_carros}") 
-print(f"com os carros {cores_dos_carros}")
-print(f"no ano de {ano_dos_carros}")
+#empresas_de_carros = "volkswagen, chevrolet, hyundai"
+#modelo_dos_carros = "Nivus, Camaro, hb20"
+#cores_dos_carros = "Amarelo , Vermelho, Azul"
+#ano_dos_carros = "2016, 2018, 2020"
+#print(f"As Empresas {empresas_de_carros}") 
+#print(f"nos modelos {modelo_dos_carros}") 
+#print(f"com os carros {cores_dos_carros}")
+#print(f"no ano de {ano_dos_carros}")
 
-if False:
-    print("Todos Carros são verdadeiro")
-elif True:
-    print("1 carro é falso")    
-else:
-    print("nenhum dos carros são verdadeiros")    
+#if False:
+#    print("Todos Carros são verdadeiro")
+#elif True:
+#    print("1 carro é falso")    
+#else:
+#    print("nenhum dos carros são verdadeiros")    
 
-if True:
-    print("Todos carros são verdadeiro")
-elif False:
-    print("1 carro é falso")    
-else:
-    print("nenhum dos carros são verdadeiros ")    
+#if True:
+#    print("Todos carros são verdadeiro")
+#elif False:
+#    print("1 carro é falso")    
+#else:
+#    print("nenhum dos carros são verdadeiros ")    
 
-nome = input("Qual é seu nome ?: ")
-idade = int (input("Qual é a sua idade ?: "))
-altura = float(input("Qual é a sua altura?: "))
-print(f"Você se chama {nome}")
-print(f"Você tem {idade} anos")
-print(f"Sua altura é {altura}")
+#nome = input("Qual é seu nome ?: ")
+#idade = int (input("Qual é a sua idade ?: "))
+#altura = float(input("Qual é a sua altura?: "))
+#print(f"Você se chama {nome}")
+#print(f"Você tem {idade} anos")
+#print(f"Sua altura é {altura}")
+
+#Operadores Relacionais
+#1
+num1 = 5
+num2 = 3
+expressao = num1 > num2 #sinal maior
+print(expressao)
+#2
+num1 = 5
+num2 = 3
+expressao = num1 < num2 #sinal menor
+print(expressao)
+#3
+num1 = 5
+num2 = 5 
+expressao = num1 >= num2 #sinal maior ou igual
+print(expressao)
+#4
+num1 = 4
+num2 = 6
+expressao = num1 <= num2 #sinal menor ou igual 
+#5
+nome1 = "Bruno"
+nome2 = "Bruno"
+nomes = nome1 != nome2  
+print(nomes)
