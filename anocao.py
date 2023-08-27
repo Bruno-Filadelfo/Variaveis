@@ -1,7 +1,7 @@
 nome = "Programado"
 sobrenome = "Dev"
 idade = 25
-altura = 1.80
+altura = 1.88
 verdadeiro = True
 profissao = "Desenvolvedor Python"
 print('Nome Completo:', nome, sobrenome)
