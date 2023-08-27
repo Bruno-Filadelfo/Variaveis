@@ -179,3 +179,25 @@ nome1 = "Bruno"
 nome2 = "Bruno"
 nomes = nome1 != nome2  
 print(nomes)
+
+
+################################################
+
+
+
+nome = input("Qual é o seu nome? : ")
+idade = input("Qual é a sua idade? : ")
+idade = int (idade)
+idade_limite = 18
+if idade >= idade_limite:
+    print(f"{nome} Você é obrigado fazer o alistamento do quartel!")
+else:
+    print(f"{nome} Você não pode servir o quartel!")    
+
+altura = input("Qual é a sua altura ? : ")
+altura = float (altura)
+limite_de_altura = 1.60
+if altura >= limite_de_altura:
+    print("Sua altura está abto para os proximos exames. Aprovado")
+else:
+    print("Sua altura não está abto para a continuação do exame. Reprovado")    
