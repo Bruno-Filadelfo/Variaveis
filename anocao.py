@@ -1,5 +1,5 @@
-nome = "Bruno"
-sobrenome = "Carvalho Filadelfo"
+nome = "Programado"
+sobrenome = "Dev"
 idade = 25
 altura = 1.80
 verdadeiro = True
