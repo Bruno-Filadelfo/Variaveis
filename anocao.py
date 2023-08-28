@@ -200,4 +200,7 @@ limite_de_altura = 1.60
 if altura >= limite_de_altura:
     print("Sua altura está abto para os proximos exames. Aprovado")
 else:
-    print("Sua altura não está abto para a continuação do exame. Reprovado")    
+    print("Sua altura não está abto para a continuação do exame. Reprovado")   
+
+ 
+
