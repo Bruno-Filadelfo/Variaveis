@@ -57,3 +57,7 @@ print(f'{numero1:0^10.2f}')
 numero2 = 8888
 print(f'{numero2:0^10.2f}')
 
+nome = "Progamador Developer Python"
+print(nome.lower())
+print(nome.upper())
+print(nome.title())
