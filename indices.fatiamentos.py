@@ -4,6 +4,16 @@
 #print(texto[13])
 
 #negativo [9876543210]
-nome = "Developer Python"
-nova_string = nome[4:10]
-print(nova_string)
+#nome = "Developer Python"
+#nova_string = nome[4:10]
+#print(nova_string)
+
+##################################
+#positivo
+texto = "Python"
+print(texto[5])
+
+##################################
+#negativo
+
+
