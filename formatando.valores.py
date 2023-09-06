@@ -60,4 +60,5 @@ print(f'{numero2:0^10.2f}')
 nome = "Progamador Developer Python"
 print(nome.lower())
 print(nome.upper())
-print(nome.title())
+print(nome.title()) 
+
