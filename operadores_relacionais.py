@@ -9,7 +9,6 @@ if idade >= idade_menor and idade <= idade_maior:
 else:
     print(f'{nome} Você pode criar um banco')   
 
-
 #alistamento do quartel
 
 idade = input("Tu tem quantos anos? : ")
@@ -22,8 +21,6 @@ if idade >= idade_menor:
 else:
     idade <= idade_menor
     print(f'{nome} você não pode servir')   
-
-
 
 idade = input("Tu tem quantos anos? : ")
 nome = input("Seu nome? :  ")
