@@ -10,19 +10,49 @@
 ###########################
 
 
-nome = "Programador"
-a = 0
-while a < 12:
-    print(nome [a])
-    print(a)
-    a += 2
+#nome = "Programador"
+#a = 0
+#while a < 12:
+#    print(nome [a])
+#    print(a)
+#    a += 2
 
 ######################
 
-nome = "Programador Júnior"
-tamanho_string = len(nome)
-c = 0 
-while c < tamanho_string:
-    print(c, nome[c])
-    c += 1 
+#nome = "Programador Júnior"
+#tamanho_string = len(nome)
+#c = 0 
+#while c < tamanho_string:
+#    print(c, nome[c])
+#    c += 1 
+
+
+#nome = "Programador Dev"
+#print(nome.count('r'))
+
+###############################
+
+#frase = "Da escola de guerra da vida - o que não me mata me fortalece."
+#palavra = len(frase)
+
+#n1 = 0 
+#n2 = 0 
+#letra = ''
+#while n1 <palavra:
+#    conta = frase.count(frase[n1])
+#    print(frase[n1],conta)
+
+
+################################
+
+texto = 8 , 10 , 15 , 22 , 65 
+print(len(texto))
+print(min(texto))
+print(max(texto))
+print(sum(texto))
+
+
+texto = 'Bruno'
+for letra in texto:
+    print(letra)
 
