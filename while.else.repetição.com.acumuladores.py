@@ -42,17 +42,3 @@
 #    conta = frase.count(frase[n1])
 #    print(frase[n1],conta)
 
-
-################################
-
-texto = 8 , 10 , 15 , 22 , 65 
-print(len(texto))
-print(min(texto))
-print(max(texto))
-print(sum(texto))
-
-
-texto = 'Bruno'
-for letra in texto:
-    print(letra)
-
