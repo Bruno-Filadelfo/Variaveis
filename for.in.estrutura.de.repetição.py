@@ -71,6 +71,10 @@ if n > 50:
     print('o valor é o dobro')
 else:
     print('o valor 50 é menor')       
+
+
+for numero in range(20, 10, -2):
+    print(numero)     
     
 
 
