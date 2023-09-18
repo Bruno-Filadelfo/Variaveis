@@ -1,7 +1,4 @@
-
-
 #Calculadora Simples
-
 num1 = int (input('Digite um numéro: '))
 operador = input('Digite o operador (+. -, *, /): ')
 num2 = int (input('Digite o segundo numéro: '))
@@ -19,6 +16,4 @@ elif operador == '/':
         resultado = 'Erro: Divisão por zero'
 else:
     resultado = 'Operador inválido'
-print('resultado:',resultado)                    
-
-
+print('resultado:',resultado)  
