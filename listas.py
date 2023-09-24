@@ -21,3 +21,7 @@
 listas = ['amarelo' , 'verde', 'roxo' , 'preto' , 'laranja' , 'vermelho' , 'azul']
 print(listas[4:])
 
+listas = ['A','B','C','D','E']
+print(listas[2:])
+print(listas[::2])
+
