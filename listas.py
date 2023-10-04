@@ -18,10 +18,18 @@
 #numeros = 300
 #print(type(numeros))
 
-listas = ['amarelo' , 'verde', 'roxo' , 'preto' , 'laranja' , 'vermelho' , 'azul']
-print(listas[4:])
+#listas = ['amarelo' , 'verde', 'roxo' , 'preto' , 'laranja' , 'vermelho' , 'azul']
+#print(listas[4:])
 
-listas = ['A','B','C','D','E']
-print(listas[2:])
-print(listas[::2])
+#listas = ['A','B','C','D','E']
+#print(listas[2:])
+#print(listas[::2])
+
+def find_max(nums):
+    max_num = float("-inf")
+    for num in nums:
+        if num > max_num:
+            return max_num
+print(int)
+
 
