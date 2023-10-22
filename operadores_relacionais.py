@@ -12,29 +12,29 @@ else:
 #alistamento do quartel
 
 
-#idade = input("Tu tem quantos anos? : ")
-#nome = input("Seu nome? : ")
-#idade = int(idade)
-#idade_menor = 18 
+idade = input("Tu tem quantos anos? : ")
+nome = input("Seu nome? : ")
+idade = int(idade)
+idade_menor = 18 
     
-#if idade >= idade_menor:
-#    print(f'{nome} tá com o limite certo Pode servir o quartel.')
-#else:
-#    idade <= idade_menor
-#    print(f'{nome} você não pode servir')   
+if idade >= idade_menor:
+    print(f'{nome} tá com o limite certo Pode servir o quartel.')
+else:
+    idade <= idade_menor
+    print(f'{nome} você não pode servir')   
 
-#idade = input("Tu tem quantos anos? : ")
-#nome = input("Seu nome? :  ")
-#idade = int(idade)
-#idade_menor = 18 
+idade = input("Tu tem quantos anos? : ")
+nome = input("Seu nome? :  ")
+idade = int(idade)
+idade_menor = 18 
     
-#if idade >= idade_menor:
-#    print(f'{nome}, tá com o limite certo. Pode servir o quartel.')
-#else:
-#    print(f'{nome}, você não pode servir o quartel.')
+if idade >= idade_menor:
+    print(f'{nome}, tá com o limite certo. Pode servir o quartel.')
+else:
+    print(f'{nome}, você não pode servir o quartel.')
 
-#país = input("Você vai para ALEMANHA!")
-#estado = input("Capital de Berlim!")
+país = input("Você vai para ALEMANHA!")
+estado = input("Capital de Berlim!")
 
 
 
